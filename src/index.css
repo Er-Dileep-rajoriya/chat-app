@@ -1,0 +1,41 @@
+/* Reset styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  /* app container */
+  .app-container{
+    width: 45%;
+    height: 90vh;
+    margin: auto;
+    border: 1px solid blue;
+  }
+
+  .app-heading{
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+  }
+
+
+  @media screen and (max-width:700px) {
+    .app-container{
+        width: 65%;
+    }
+  }
+
+  

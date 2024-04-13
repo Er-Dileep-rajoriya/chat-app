@@ -1,0 +1,29 @@
+.nav-container{
+    width: 100%;
+    background-color: rgb(85, 85, 155);
+    display: flex;
+}
+
+.nav-container img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.nav-container span, .nav-container p{
+    margin-left: 10px;
+}
+
+.nav-container span{
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: rgb(227, 212, 212);
+}
+
+.nav-container p{
+    color: rgb(227, 212, 212);
+    opacity: .5;
+
+}
+
+
